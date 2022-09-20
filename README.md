@@ -220,7 +220,7 @@ refers to the current value stored in the memory location bound to `a`.
 
 The reference model can be summarized as follows:
 
-* Every variable is an l-value.
+* Every using occurrence of a variable is an l-value.
 
 * To get the value at the named location, the variable must be
   explicitly *dereferenced*.
